@@ -1,0 +1,70 @@
+@media only screen and (min-width: 1000px) {
+  .slider-dropw {
+      position: relative;
+      bottom: 200px;
+
+  }
+  .banner-2-btton .fff{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 10px  !important;
+  }
+  .banner-text p{
+    color: white !important;
+  }
+  .nanner-a a{
+    color: white !important;
+    border-left: 1px solid rgb(248, 244, 244) !important;
+
+  }
+  .banner-img2{
+     position: relative;
+  }
+  .banner-text-2{
+     text-align: start;
+     margin-left :250px ;
+     
+      
+  }
+  .banner-text{
+     position: absolute;
+      top: 0;
+      right: 0;
+    max-width: 600px;
+    color: white;
+
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+   
+  .caragries{
+     overflow-y: scroll;
+  }
+  .banner-text{
+    max-width: 600px;
+}
+
+  .swiper-slide{
+     width: 50%;
+     height: auto;
+
+  }
+  .banner-text-2{
+    text-align: center !important;
+  
+    }
+  }
+  @media only screen and (max-width: 400px) {
+   
+    
+  
+    .swiper-slide{
+       width: 100%;
+       height: auto;
+       
+    }
+
+
+   
+    }
